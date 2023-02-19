@@ -3,7 +3,7 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int x = number % 2;
-
+ Console.WriteLine(x);
 if (x == 0)
 {
     Console.Write(number);
